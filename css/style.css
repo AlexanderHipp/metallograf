@@ -212,6 +212,7 @@
 /* Parallax Backgrounds */
 
 	body.parallax .parallax,
+	body.parallax .parallax0,
 	body.parallax .parallax1,
 	body.parallax .parallax2,
 	body.parallax .parallax3,
@@ -4895,12 +4896,14 @@
 
 /* Backgrounds */
 
+#image-section-0,
 #image-section-1,
 #image-section-2,
 #image-section-3,
 #image-section-4,
 #kontakt {background-repeat: no-repeat;background-position: center center;background-size:cover;}
 
+#image-section-0 {background-image:url(../images/i1.jpg);}
 #image-section-1 {background-image:url(../images/i1.jpg);}
 #image-section-2 {background-image:url(../images/i2.jpg);}
 #image-section-3 {background-image:url(../images/i2.jpg);}
@@ -5014,4 +5017,32 @@
 	width: 100%;
 	z-index: 5;
 	margin-left: -6px;
+}
+
+
+/** Map */
+
+#map {
+	z-index:2;
+	position:relative;
+}
+
+#map .title-box {
+	z-index:3;
+}
+
+#map .inner {
+	padding:0px;
+}
+
+
+/* Kontakt */
+input, textarea, #submit {
+	padding: 15px;
+	font-size: 16px;
+	margin: 15px;
+}
+
+input, textarea {
+	width:100%}
 }
